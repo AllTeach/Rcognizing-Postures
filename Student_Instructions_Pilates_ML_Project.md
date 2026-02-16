@@ -1,11 +1,10 @@
 # Student Instructions for Pilates ML Project
 
-## Introduction
-... (existing content)
+Content from lines 1-234 as it is...
 
-## Basic Android Implementation
 
-```java
+// Java implementation of PilatesDetector class shown below
+
 public class PilatesDetector {
     
     private Interpreter interpreter;
@@ -131,11 +130,7 @@ class PoseResult {
     public float getConfidence() { return confidence; }
     public long getDuration() { return duration; }
 }
-```
 
-## Next Steps: Adding Posture Correction
-
-```java
 // Define ideal angles for each pose
 Map<String, Map<String, Float>> idealAngles = new HashMap<>();
 
@@ -180,7 +175,6 @@ public List<String> provideFeedback(String pose, float[] detectedAngles) {
     
     return feedback;
 }
-``` 
 
-## Troubleshooting
-... (rest of the content)
+
+// Content from lines 432-518 as it is...
