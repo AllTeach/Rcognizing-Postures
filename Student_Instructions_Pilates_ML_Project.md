@@ -1,9 +1,9 @@
 # Student Instructions for Pilates ML Project
 
-Content from lines 1-234 as it is...
+## Overview
+This project aims to utilize machine learning for detecting and providing feedback on Pilates postures.
 
-
-// Java implementation of PilatesDetector class shown below
+...(rest of the file content)...
 
 public class PilatesDetector {
     
@@ -129,7 +129,7 @@ class PoseResult {
     public String getPoseName() { return poseName; }
     public float getConfidence() { return confidence; }
     public long getDuration() { return duration; }
-}
+}  
 
 // Define ideal angles for each pose
 Map<String, Map<String, Float>> idealAngles = new HashMap<>();
@@ -175,6 +175,3 @@ public List<String> provideFeedback(String pose, float[] detectedAngles) {
     
     return feedback;
 }
-
-
-// Content from lines 432-518 as it is...
